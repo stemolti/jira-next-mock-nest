@@ -8,6 +8,9 @@
     },
     {
       "path": "./apps/jira-next-mock-nest"
+    },
+    {
+      "path": "./apps/jira-client-next"
     }
   ]
 }
