@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/jira-next-mock-nest-e2e"
+    },
+    {
+      "path": "./apps/jira-next-mock-nest"
+    }
+  ]
+}

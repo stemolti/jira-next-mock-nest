@@ -1,0 +1,26 @@
+{
+  "name": "@jira-next-mock-nest/jira-next-mock-nest-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "name": "jira-next-mock-nest-e2e",
+    "implicitDependencies": [
+      "jira-next-mock-nest"
+    ],
+    "targets": {
+      "e2e": {
+        "executor": "@nx/jest:jest",
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ],
+        "options": {
+          "jestConfig": "apps/jira-next-mock-nest-e2e/jest.config.ts",
+          "passWithNoTests": true
+        },
+        "dependsOn": [
+          "jira-next-mock-nest:build"
+        ]
+      }
+    }
+  }
+}
