@@ -2,7 +2,10 @@
   "name": "@jira-next-mock-nest/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nest start",
+    "start:dev": "nest start --watch"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^10.0.2",
