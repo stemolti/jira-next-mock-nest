@@ -12,8 +12,4 @@ export class CreateProjectDto {
   @IsInt()
   @IsOptional()
   createdAt?: Date;
-
-  @IsInt()
-  @IsOptional()
-  updatedAt?: Date;
 }
