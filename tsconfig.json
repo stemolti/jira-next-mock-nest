@@ -2,6 +2,9 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
+  "compilerOptions": {
+    "tsBuildInfoFile": "./dist/tsconfig.root.tsbuildinfo"
+  },
   "references": [
     {
       "path": "./apps/jira-next-mock-nest-e2e"
